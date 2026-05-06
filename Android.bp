@@ -3362,6 +3362,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "audio.primary.taro_xiaomi",
 	stem: "audio.primary.taro",
+	overrides: ["audio.primary.taro"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6523,6 +6524,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsdedrm_xiaomi",
 	stem: "libsdedrm",
+	overrides: ["libsdedrm"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6541,6 +6543,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsdm-disp-vndapis_xiaomi",
 	stem: "libsdm-disp-vndapis",
+	overrides: ["libsdm-disp-vndapis"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6559,6 +6562,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsdmcore_xiaomi",
 	stem: "libsdmcore",
+	overrides: ["libsdmcore"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6577,6 +6581,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsdmextension_xiaomi",
 	stem: "libsdmextension",
+	overrides: ["libsdmextension"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6595,6 +6600,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "libsdmutils_xiaomi",
 	stem: "libsdmutils",
+	overrides: ["libsdmutils"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
