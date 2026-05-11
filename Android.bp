@@ -3424,7 +3424,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/com.qti.chi.override.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libprocessgroup", "libbitmlenginev2", "libchilog", "vendor.qti.hardware.camera.postproc@1.0-service-impl", "libcamlog", "vendor.qti.hardware.camera.aon@1.0-service-impl", "libc", "libm", "libdl", ],
+			shared_libs: ["libprocessgroup_shim", "libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libprocessgroup", "libbitmlenginev2", "libchilog", "vendor.qti.hardware.camera.postproc@1.0-service-impl", "libcamlog", "vendor.qti.hardware.camera.aon@1.0-service-impl", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4626,7 +4626,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamxcommonutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libprocessgroup", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libprocessgroup_shim", "libc++", "libcutils", "liblog", "libprocessgroup", "libsync", "libutils", "libutilscallstack", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -5918,7 +5918,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libdmabufheap", "libnativewindow", "libprocessgroup", "libcom.xiaomi.pluginutils", "libcom.xiaomi.metadatautils", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libcamlog", "libutilscallstack", "libc", "libm", "libdl", ],
+			shared_libs: ["libprocessgroup_shim", "libc++", "libcutils", "liblog", "libsync", "libhidlbase", "libhidltransport", "libui", "libcamera_metadata", "libutils", "libdmabufheap", "libnativewindow", "libprocessgroup", "libcom.xiaomi.pluginutils", "libcom.xiaomi.metadatautils", "libcom.xiaomi.grallocutils", "libcom.xiaomi.debug", "libcamlog", "libutilscallstack", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
