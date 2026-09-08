@@ -13193,40 +13193,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdm-disp-vndapis_xiaomi",
-    stem: "libsdm-disp-vndapis",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsdm-disp-vndapis.so",
-            ],
-            shared_libs: [
-                "libdisplaydebug",
-                "libqservice",
-                "libbinder",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    overrides: [
-        "libsdm-disp-vndapis",
-    ],
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsdmcore_xiaomi",
     stem: "libsdmcore",
     owner: "xiaomi",
@@ -13263,43 +13229,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     overrides: [
         "libsdmcore",
-    ],
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsdmextension_xiaomi",
-    stem: "libsdmextension",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsdmextension.so",
-            ],
-            shared_libs: [
-                "libdisplaydebug",
-                "libsdmutils",
-                "libdisplayqos",
-                "libsdm-color",
-                "libdisplayskuutils",
-                "libtinyxml2_1",
-                "libtestutils",
-                "libcrypto",
-                "libssl",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    overrides: [
-        "libsdmextension",
     ],
     soc_specific: true,
 }

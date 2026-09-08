@@ -999,9 +999,7 @@ PRODUCT_PACKAGES += \
     libresampler \
     librmsclib1 \
     libsdedrm_xiaomi \
-    libsdm-disp-vndapis_xiaomi \
     libsdmcore_xiaomi \
-    libsdmextension_xiaomi \
     libsdmutils_xiaomi \
     libsdr2hdr \
     libsfeShiftExtrapolation \
