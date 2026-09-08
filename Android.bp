@@ -7855,7 +7855,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbase",
                 "libbinder",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -10541,7 +10541,7 @@ cc_prebuilt_library_shared {
                 "libhidltransport",
                 "libhidlbase",
                 "libgui_vendor",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -13207,7 +13207,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libhidltransport",
                 "libhidlbase",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libclient2slpi.notifier",
                 "liblog",
                 "libcutils",
@@ -14595,35 +14595,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
-    stem: "vendor.xiaomi.hardware.displayfeature@1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.quickcamera@1.0",
     owner: "xiaomi",
     strip: {
@@ -15687,7 +15658,7 @@ cc_prebuilt_binary {
                 "libutils-shim",
                 "libutils-v32",
                 "libhidltransport",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libclient2slpi.notifier",
                 "libbinder",
                 "libhardware",
@@ -15762,7 +15733,7 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libhidlbase",
                 "libhidltransport",
-                "vendor.xiaomi.hardware.displayfeature@1.0_vendor",
+                "vendor.xiaomi.hardware.displayfeature@1.0",
                 "libc++",
                 "libc",
                 "libm",
