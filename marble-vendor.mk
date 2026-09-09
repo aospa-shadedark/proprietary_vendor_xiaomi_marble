@@ -998,9 +998,9 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libresampler \
     librmsclib1 \
-    libsdedrm_xiaomi \
-    libsdmcore_xiaomi \
-    libsdmutils_xiaomi \
+    libsdedrm \
+    libsdmcore \
+    libsdmutils \
     libsdr2hdr \
     libsfeShiftExtrapolation \
     libsndcardparser \

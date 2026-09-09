@@ -13159,8 +13159,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdedrm_xiaomi",
-    stem: "libsdedrm",
+    name: "libsdedrm",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13186,15 +13185,11 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdedrm",
-    ],
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmcore_xiaomi",
-    stem: "libsdmcore",
+    name: "libsdmcore",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13227,15 +13222,11 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdmcore",
-    ],
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmutils_xiaomi",
-    stem: "libsdmutils",
+    name: "libsdmutils",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13259,9 +13250,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    overrides: [
-        "libsdmutils",
-    ],
     soc_specific: true,
 }
 
